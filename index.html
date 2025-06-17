@@ -8,14 +8,20 @@
 </head>
 <body>
   <div class="container">
-    <h1>Upload a PDF</h1>
+    <h1>Beräkna ditt skattefria traktamente!</h1>
     <input type="file" id="pdfFile" accept="application/pdf" />
-    <button id="processBtn">Count "AI"</button>
+    <button id="processBtn">Beräkna</button>
     <div id="feedback"></div>
+    <div id="infoBox" style="border: 1px solid #ccc; padding: 10px; margin-top: 30px; width: 100%; max-width: 500px;">
+        <h3 style="font-size: 14px;"> Tack till Maja som har gjort denna hemsida</h3>
+        <img src="me.jpg" id="previewImage" style="max-width: 100%;"><br><br>
+      </div>
   </div>
-
+  
   <!-- Load PDF.js from CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="script.js"></script>
+  
+</div>
 </body>
 </html>
